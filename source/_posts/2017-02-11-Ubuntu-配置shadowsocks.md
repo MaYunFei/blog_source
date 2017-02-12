@@ -81,6 +81,11 @@ serverSlots1 = 32
 
 `curl www.google.com`
 
+# chrome 代理
+
+1. 安装 `SwitchyOmega` 插件 [在谷歌应用商店安装SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) 离线安装地址 [https://github.com/FelisCatus/SwitchyOmega/releases](https://github.com/FelisCatus/SwitchyOmega/releases)
+2. 配置 `GFWList` [https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList](https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList)
+
 # 意事项
 
 服务器重启后，下面两句需要重新执行：
