@@ -20,7 +20,7 @@ tags: [ubuntu,shadowsocks]
 
 `sudo pip install shadowsocks`
 
-#配置shadowsocks
+# 配置shadowsocks
 
 新建一个配置文件shawdowsocks.json，然后配置相应的参数：
 
@@ -40,7 +40,7 @@ tags: [ubuntu,shadowsocks]
 
 `sudo sslocal -c shawdowsocks.json -d start`
 
-#配置全局代理
+# 配置全局代理
 
 启动shawdowsocks服务后，发现并不能翻墙上网，这是因为shawdowsocks是socks 5代理，需要客户端配合才能翻墙。
 
@@ -81,7 +81,7 @@ serverSlots1 = 32
 
 `curl www.google.com`
 
-#意事项
+# 意事项
 
 服务器重启后，下面两句需要重新执行：
 
